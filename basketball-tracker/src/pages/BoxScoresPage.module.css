@@ -1,0 +1,153 @@
+.page {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.title {
+  font-family: 'Georgia', serif;
+  font-size: 1.8rem;
+  margin-bottom: 1.5rem;
+  color: #1a1a1a;
+}
+
+.gameSelect {
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+  max-width: 320px;
+}
+
+.gameSelect label {
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: #555;
+}
+
+.gameSelect select {
+  padding: 0.5rem 0.75rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 0.95rem;
+}
+
+.gameSelect select:focus {
+  outline: none;
+  border-color: #e85d04;
+}
+
+.gameHeader {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin: 1.5rem 0 1rem;
+  flex-wrap: wrap;
+}
+
+.gameTitle {
+  font-size: 1.3rem;
+  font-weight: 700;
+}
+
+.gameMeta {
+  color: #666;
+  font-size: 0.9rem;
+}
+
+.result {
+  font-weight: 700;
+  padding: 0.2rem 0.6rem;
+  border-radius: 4px;
+  font-size: 0.9rem;
+}
+
+.win {
+  background: #d4edda;
+  color: #155724;
+}
+
+.loss {
+  background: #f8d7da;
+  color: #721c24;
+}
+
+.tableWrapper {
+  overflow-x: auto;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.85rem;
+  background: white;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.table th {
+  background: #1a1a1a;
+  color: white;
+  padding: 0.5rem 0.4rem;
+  text-align: center;
+  font-weight: 600;
+  white-space: nowrap;
+}
+
+.table th:first-child {
+  text-align: left;
+  padding-left: 1rem;
+  min-width: 140px;
+}
+
+.table td {
+  padding: 0.45rem 0.4rem;
+  text-align: center;
+  border-top: 1px solid #eee;
+}
+
+.table tbody tr:nth-child(even) {
+  background: #f9f9f9;
+}
+
+.table tbody tr:hover {
+  background: #fff7f3;
+}
+
+.playerName {
+  text-align: left !important;
+  padding-left: 1rem !important;
+  font-weight: 500;
+  white-space: nowrap;
+}
+
+.number {
+  color: #e85d04;
+  font-weight: 700;
+  margin-right: 0.25rem;
+}
+
+.pts {
+  font-weight: 700;
+  color: #e85d04;
+}
+
+.totalsRow {
+  background: #1a1a1a !important;
+  color: white;
+  font-weight: 700;
+}
+
+.totalsRow td {
+  border-top: 2px solid #e85d04 !important;
+  color: white;
+}
+
+.totalsRow .pts {
+  color: #e85d04;
+}
+
+.hint {
+  margin-top: 2rem;
+  color: #888;
+  text-align: center;
+}

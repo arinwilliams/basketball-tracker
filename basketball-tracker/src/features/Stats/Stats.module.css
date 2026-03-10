@@ -1,0 +1,66 @@
+.tableWrapper {
+  overflow-x: auto;
+  margin-top: 1.5rem;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.85rem;
+  background: white;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.table th {
+  background: #1a1a1a;
+  color: white;
+  padding: 0.5rem 0.4rem;
+  text-align: center;
+  font-weight: 600;
+  white-space: nowrap;
+}
+
+.table th:first-child {
+  text-align: left;
+  padding-left: 1rem;
+  min-width: 140px;
+}
+
+.row:nth-child(even) {
+  background: #f9f9f9;
+}
+
+.row td {
+  padding: 0.4rem;
+  text-align: center;
+  border-top: 1px solid #eee;
+}
+
+.playerName {
+  text-align: left !important;
+  padding-left: 1rem !important;
+  font-weight: 500;
+  white-space: nowrap;
+}
+
+.number {
+  color: #e85d04;
+  font-weight: 700;
+  margin-right: 0.25rem;
+}
+
+.statInput {
+  width: 42px;
+  padding: 0.25rem;
+  text-align: center;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 0.85rem;
+}
+
+.statInput:focus {
+  outline: none;
+  border-color: #e85d04;
+}
